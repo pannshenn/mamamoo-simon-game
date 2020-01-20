@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  box-sizing: border-box;
+  background-image: url(./images/starrynight.jpg);
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  2%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: inline-block;
+  width: 50%;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.green {
+  background-color: green;
+  background-image: url(./images/solar.jpg);
+  background-size: 200px 200px;
+}
+
+.red {
+  background-color: red;
+  background-image: url(./images/moonbyul.jpg);
+  background-size: 200px 200px;
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: url(./images/wheein.jpg);
+  background-size: 200px 200px;
+}
+
+
+.blue {
+  background-color: blue;
+  background-image: url(./images/hwasa.jpg);
+  background-size: 200px 200px;
+}
+
+.pressed {
+  box-shadow: 0 0 40px white;
+  background-color: grey;
+}
+
+.control {
+  background-color: transparent;
+  border: none;
+  text-shadow: 1px 1px 1px #192965, -1px -1px 1px #192965;
+}
+
+.control-stop {
+  color: red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
+.control-next {
+  color: green;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
+}
+
+
+.control:hover {
+  text-shadow: 1px 1px 16px #eae9e9, -1px -1px 10px #eae9e9;
+}
